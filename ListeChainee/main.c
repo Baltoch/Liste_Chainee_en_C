@@ -180,7 +180,7 @@ int main() {
     int choix;
     int element;
     int rang;
-    maillon *ancre;
+    maillon *ancre = NULL;
     do {
         printf("Menu:\n");
         printf("1. Ajouter a la fin de la liste\n");
