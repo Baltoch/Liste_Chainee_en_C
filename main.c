@@ -64,7 +64,7 @@ int compte_age(t_client *ancre)
 //de clients dans la tranche d’âge [20,40]. Pas de boucle demandée. (2 point)
 int main() {
     int compteur = 0;
-    t_client *ancre;
+    t_client *ancre = NULL;
     for (int i = 0; i < NBCLIENT; i++) ajout_client(&ancre);
     compteur = compte_age(ancre);
     printf("%d clients entre 20 et 40 ans\n", compteur);
